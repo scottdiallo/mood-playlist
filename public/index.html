@@ -6,12 +6,50 @@
     <link rel="stylesheet" href="main.css" type="text/css" />
 </head>
 <body>
-    <p> Hello World!</p>
+    <!--<p> Hello World!</p>-->
     <h1>Mood Playlist Generator</h1>
     <h3>Here you will answer a series of questions to build your personalize playlist</h3>
 
-<button class="GenerateButton">Generate Playlist</button>
-<!--<img src="images/GenerateButton.gif"></img>-->
+
+<form class="questions">
+    <div class="formGroup">
+        <label for="firstQuestion">How do you feel today?</label>
+    <select name="firstQuestion" class="firstQuestion">
+        <option>Happy</option>
+        <option>Excited</option>
+        <option>Sad</option>
+        <option>In Love</option>
+        <option>So-So</option>
+        <option>Partying</option>
+    </select>
+    </div>
+    
+     <div class="formGroup">
+        <label for="SecondQuestion">How is mother nature today?</label>
+    <select name="SecondQuestion" class="SecondQuestion">
+        <option>Rainy</option>
+        <option>Sunny</option>
+        <option>Cold</option>
+        <option>Chilly</option>
+        <option>Simply Amazing</option>
+    </select>
+    </div>
+    
+     <div class="formGroup">
+        <label for="firstQuestion">What do you feel like doing right now?</label>
+    <select name="firstQuestion" class="firstQuestion">
+        <option>Dancing</option>
+        <option>Relaxing</option>
+        <option>Sleeping</option>
+        <option>Doing Nothing</option>
+    </select>
+    </div>
+</form>
+
+
+<button class="generateButton">Generate Playlist</button>
+<!--<button id="close-image"><img src="../images/GenerateButton.png"></button>-->
+
 </body>
 </html>
 
