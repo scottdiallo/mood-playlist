@@ -2,7 +2,18 @@ body{
     background-color: red;
 }
 
+.formGroup{
+    margin-left: 25px;
+}
 .generateButton {
     border-radius: 15px;
     padding:10px;
+    margin-top: 25px;
+    margin:0 auto; 
+    text-align: center;
+}
+
+select{
+    float: right;
+    margin-right: 345px; 
 }
