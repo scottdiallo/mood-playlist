@@ -1,7 +1,17 @@
 body{
     background-color: red;
+    font-size: 25px;
 }
 
+.heroText{
+    text-align: center;
+    font-size: 2em;
+}
+.content{
+    border: 3px solid white;
+    height: 500px;
+    padding: 10px;
+}
 .formGroup{
     margin-left: 25px;
 }
